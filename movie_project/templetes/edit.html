@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="update">
+    <form class="update_forms" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label><h3>Movie Details Updation Form</h3></label>
+        {{form.as_p}}
+        <input class="btn btn-primary" type="submit"><br><br>
+        <a href="/">Cancel</a>
+
+    </form>
+
+</div>
+
+
+
+
+
+{% endblock %}

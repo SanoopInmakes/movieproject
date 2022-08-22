@@ -1,0 +1,85 @@
+
+body{
+        background-size:cover;
+}
+
+.maincontainer{padding-top:100px;}
+.navbar{
+        position:fixed;
+        width:100%
+}
+.movielist{
+            float:left;
+}
+
+.container{
+border:2px solid black;padding:15px;margin-top:2px;width:190px;height:300px;float:left;margin-left:10px;text-align:center;
+}
+.thumbnail{
+          width:130px;
+
+}
+
+ /*********************/
+ /* details page*/
+/**********************/
+
+
+
+
+.details_container
+{   width:95%;
+    border:3px solid black;
+    text-align:center;
+    float:center;
+    margin:auto;
+    padding:20px;
+
+}
+
+
+.det_img{
+        width:100%;padding-left:100px;
+}
+
+
+
+.add_movie{
+         border:3px solid black;
+    text-align:center;
+    width:60%;
+    float:center;
+    margin:auto;
+    padding:50px;
+
+}
+.add_movie input,.add_movie h1{padding:2%;
+        width:80%;
+        text-align:center;
+        float:center;
+        margin:auto;
+        margin-top:10px;
+        box-shadow: 10px 10px 10px rgba(30,24,24,0.2), -8px -8px 10px rgba(30,24,24,0.6);
+        border-radius:20px;
+        }
+
+
+.update{
+    background-color:rgb(72, 201, 176,0.5);
+    border:3px solid black;
+    text-align:center;
+    width:60%;
+    float:center;
+    margin:auto;
+    padding:50px;
+}
+.update input,.update textarea{
+                        width:80%;
+                        border-radius:20px;
+}
+.update label{font-weight: bold;}
+
+.btn btn-warning{
+background-color:red;
+font-color:green;}
+
